@@ -1,6 +1,6 @@
-// ::-webkit-scrollbar {
-// width: 0px;
-// }
+::-webkit-scrollbar {
+width: 0px;
+}
 
 .body{
 	margin: 0;
@@ -194,18 +194,6 @@ button:hover{
 	.header{
 		background-color: #171818;
 		position: static;
-	}
-
-	.header__formsend{
-		display: none;
-		position: absolute;
-		top: 150px;
-		right: 36%;
-		color: #fff;
-	}
-	
-	.header__formsend_active{
-		display: block;
 	}
 
 	.nav__ul{
@@ -705,7 +693,6 @@ top: 240px;
 		.about__item{
 			width: 80%;
 		}
-		
 		margin-top: 0px;
 	}
 		.nav_mobile_burger{
@@ -861,6 +848,12 @@ top: 240px;
 		}
 
 		@media (max-width: 625px){
+		.nav_mobile_burger{
+			top: 6vh;
+		}
+		.menu-btn_active{
+			margin-top: 40px;
+		}
 			.logo{
 				padding: 10px 0 0 50px;
 			}
@@ -939,4 +932,16 @@ top: 240px;
 
 		.nav_mobile_menu-active{
 			display: block;
+		}
+		.swal-modal {
+  background-color: #000;
+}
+		.swal-text{
+			color: #fff;
+		}
+		.swal-title{
+			color: #fff;
+		}
+		.swal-button{
+			background-color: #12cf6a;
 		}

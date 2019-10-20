@@ -47,3 +47,8 @@ $('.menu-nav__link').on('click', function(e){
     $('.header__headbutton__button').on('click', function(e){
         $('.header__formsend').toggleClass('header__formsend_active');
     }); 
+
+    $('.contact__form>.header__headbutton__button').on('click', function(e){
+        e.preventDefault();
+    swal("Кнопка не работает", "Но скоро заработает", "info")
+    }); 
