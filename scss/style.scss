@@ -267,6 +267,9 @@ button:hover{
 			height: 54px;
 			border: 2px solid #fff;
 			border-radius: 27px;
+		outline: none;
+		-webkit-tap-highlight-color: transparent;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);			
 		}
 	}
 
@@ -406,6 +409,9 @@ button:hover{
 	}
 
 	.about__headbutton{
+						outline: none;
+		-webkit-tap-highlight-color: transparent;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 		margin-top: 60px;
 	// 	.header__headbutton{
 	// 		.header__headbutton__button{
@@ -419,6 +425,7 @@ button:hover{
 	// 			}
 	// 		}
 	// 	}
+
 	}
 
 	.about__button{
@@ -427,6 +434,9 @@ button:hover{
 		width: 526px;
 		height: 105px;
 		box-shadow: 0 20px 20px rgba(0,0,0,0.15);
+				outline: none;
+		-webkit-tap-highlight-color: transparent;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 		div{
 			margin-top: -37px;
 		}
@@ -579,7 +589,10 @@ button:hover{
 		width: 621px;
 		margin: auto;
 		.header__headbutton__button{
-			margin: 3% auto 6% auto;		
+			margin: 3% auto 6% auto;
+		outline: none;
+		-webkit-tap-highlight-color: transparent;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 		}
 	}
 
