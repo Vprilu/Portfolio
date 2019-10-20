@@ -54,6 +54,8 @@ button:hover{
 	bottom: 10px;
 	color: red;
 	outline: none;
+	-webkit-tap-highlight-color: transparent;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .nav{
@@ -546,15 +548,23 @@ button:hover{
 	.contact__form{
 		.contact__name{
 		outline: none;
+		-webkit-tap-highlight-color: transparent;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 		}
 		.contact__email{
 		outline: none;
+		-webkit-tap-highlight-color: transparent;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 		}
 		.contact__message{
 		outline: none;
+		-webkit-tap-highlight-color: transparent;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 		}
 		.header__headbutton__button{
 		outline: none;
+		-webkit-tap-highlight-color: transparent;
+		-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 		}
 		display: flex;
 		flex-direction: column;
